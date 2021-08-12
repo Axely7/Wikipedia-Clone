@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+main .main-title{
+    width: 530px;
+    height: 114px;
+    margin: 0 auto;
+    padding-top: 46px;
+}
+
+main .main-title h1{
+    font-size: xx-large;
+}
+
+main .main-title img{
+    width: 190px;
+}
+
+main .main-title p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+main .main-languages .languages-top{
+    display: flex;
+    justify-content: center;
+}
+
+.main-languages .espaniol{
+    margin-right: 45px;
+}
+
+.main-languages .english{
+    margin-left: 45px;
+}
+
+main .main-languages  button{
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin-top: 22px;
+}
+
+button a{
+    color: #3366CC;
+    font-size: 18px;
+}
+
+main .main-languages button:hover{
+    background-color: #f2f2f2;
+}
+button p{
+    margin-top: 4px;
+}
+
+main .main-languages .languages-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.languages-centered .centered img{
+    width: 210px;
+}
+
+.languages-left .uno, .languages-left .tres{
+    margin-left: 50px;
+}
+
+.languages-left .dos{
+    margin-left: 20px;
+}
+
+
+.languages-right .uno, .languages-right .tres{
+    margin-right: 50px;
+}
+
+.languages-right .tres{
+    margin-right: 20px;
+}
+
+main .main-languages .languages-bottom{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-languages .Portugues{
+    margin-right: 45px;
+}
+
+.main-languages .Polski{
+    margin-left: 45px;
+}
+
+main .main-search{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .input-container{
+    margin-top: 27px;
+    width: 525px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid ;
+    display: flex;
+}
+
+main .input-container input{
+    width: 430px;
+    height: 44px;
+}
