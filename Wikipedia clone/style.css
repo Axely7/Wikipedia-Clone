@@ -123,11 +123,56 @@ main .input-container{
     width: 525px;
     height: 44px;
     border-radius: 5px;
-    border: 1px solid ;
+    border: 1px solid #a2a9b1;
     display: flex;
 }
 
 main .input-container input{
-    width: 430px;
-    height: 44px;
+    width: 575px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
+main .input-container select{
+    border: none;
+    cursor: pointer;
+    width: 42px;
+    margin: 10px 10px;
+    color: #a2a9b1;
+}
+
+main .input-container select:hover{
+    background-color: #f2f2f2;
+}
+
+main .main-search .input-container .button-search{
+    background-image: url('https://tpng.net/download/600x600_87-872187_lupa-png.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    width: 80px;
+    height: 42px;
+    background-color: #3366CC;
+    cursor: pointer;
+}
+
+main .main-read{
+    margin-top: 40px;
+}
+
+main .main-read .button-read select{
+    height: 40px;
+    width: 330px;
+    padding: 10px;
+    color: #3366CC;
+}
+
+.main-read .button-read select option{
+    text-align: center;
+  
+}
+
+footer{
+    margin-top: 40px;
 }
