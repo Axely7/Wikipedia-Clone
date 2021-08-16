@@ -173,6 +173,52 @@ main .main-read .button-read select{
   
 }
 
-footer{
-    margin-top: 40px;
+hr{
+    margin-top: 20px;
 }
+
+footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+footer .footer-left{
+    width: 300px;
+    font-size: 15px;
+}
+
+footer .footer-left .download{
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    width: 300px;
+}
+
+
+
+footer .footer-left .footer-apps{
+    display: flex;
+    width: 80px;
+    margin-left: 50px;
+}
+
+footer .footer-left .footer-apps img{
+    width: 80px;
+    margin-top: 20px;
+}
+
+footer .footer-right img{
+    width: 40px;
+}
+
+footer .footer-right .row-1, .row-2, .row-3, .row-4{
+    display: flex;
+}
+
+
+
+
+footer .footer-right  div{
+    width: 900px;
+}
+
